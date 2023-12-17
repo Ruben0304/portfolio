@@ -2926,7 +2926,7 @@ html[dir=rtl] .notifications-container .notify-leave-active {
             transform: translateX(50%);
   }
   .hero-section .hero-img .layer:last-of-type img {
-    height: 200%;
+    height: 100%;
     width: 200%;
   }
   html[dir=ltr] .hero-section .hero-img .layer:last-of-type img {
@@ -2947,7 +2947,7 @@ html[dir=rtl] .notifications-container .notify-leave-active {
   .hero-section .hero-img .layer img {
     position: relative;
     z-index: 2;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 55vh);
     max-width: 100%;
     margin: auto;
     -webkit-user-select: none;
@@ -2971,7 +2971,7 @@ html[dir=rtl] .notifications-container .notify-leave-active {
   .hero-section .hero-text {
     position: absolute;
     z-index: 3;
-    top: 45%;
+    top: 50%;
     width: 90%;
     text-shadow: 0px 0px 20px hsl(var(--dark-color));
   }
@@ -3300,7 +3300,8 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
 }
 @media (max-width: 991px) {
   .about-section .section-content .about-img {
-    height: 400px;
+    
+    display: none;
   }
 }
 .about-section .section-content .about-img .layer {
@@ -3353,11 +3354,11 @@ html[dir=rtl] .about-section .section-content .about-img .layer:first-of-type:be
           filter: drop-shadow(2px 4px 6px black);
 }
 .about-section .section-content .about-img .layer:last-of-type {
-  height: 50%;
+  height: 100%;
   overflow: hidden;
 }
 .about-section .section-content .about-img .layer:last-of-type img {
-  height: 200%;
+  height: 100%;
 }
 .about-section .section-content .about-img .layer img {
   position: relative;

@@ -27,7 +27,7 @@
 
   <!-- bootstrap css file -->
   <link rel="stylesheet" href="styles/bootstrap.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!-- main style file -->
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -40,20 +40,7 @@
       <div class="circle-cursor circle-cursor-outer" ref="circleCursorOuter"></div>
       <div class="circle-cursor circle-cursor-inner" ref="circleCursorInner"></div>
 
-      <!-- start preloader-->
-      <div class="preloader" ref="preloader">
-        <div class="preloader-content">
-          <!-- <div class="logo">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 199">
-                <path d="M0.720001 8.91999V0.855993H58.32L169.488 190.648V199H112.176L0.720001 8.91999ZM114.768 73.144V0.855993H169.488V166.744L114.768 73.144ZM0.720001 32.824L55.44 126.424V199H0.720001V32.824Z" />
-              </svg>
-            </div> -->
-          <div class="loading-bar">
-            <span class="loading-bar-progress"></span>
-          </div>
-        </div>
-      </div>
-      <!-- end preloader-->
+
 
       <!-- start of header -->
       <header class="hide-in-preloading" :class="{
@@ -95,25 +82,25 @@
                   <li class="col-lg-4">
                     <h4 class="block-title">Email</h4>
                     <ul>
-                      <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
-                      <li><a href="mailto:support@nafie.com">support@nafie.com</a></li>
+                      <li><a href="mailto:info@nafie.com">hernandzruben9@gmail.com</a></li>
+                      <!-- <li><a href="mailto:support@nafie.com">support@nafie.com</a></li> -->
                     </ul>
                   </li>
                   <li class="col-lg-4">
-                    <h4 class="block-title">Address</h4>
+                    <h4 class="block-title">Dirección</h4>
                     <ul>
                       <li>
-                        941 saqrqorish Road, alandalos,
+                        Muncicipio Playa
                         <br>
-                        grnata, wa 47122-4194
+                        La Habana, Cuba.
                       </li>
                     </ul>
                   </li>
                   <li class="col-lg-4">
                     <h4 class="block-title">Phone</h4>
                     <ul>
-                      <li><a href="tel:02966202290">(02) 966 202 290</a></li>
-                      <li><a href="tel:02966202291">(02) 966 202 291</a></li>
+                      <li><a href="tel:+5354830854">+53 54830854</a></li>
+
                     </ul>
                   </li>
                 </ul>
@@ -165,7 +152,7 @@
       <div id="hero" class="hero-section hide-in-preloading" data-paneffect="true" ref="heroSection">
         <div class="hero-img">
           <div class="layer" v-clone>
-            <img src="assets/images/hero-img.png" alt="User Name" loading="lazy">
+            <img src="assets/images/mac.png" alt="User Name" loading="lazy">
           </div>
         </div>
 
@@ -175,7 +162,7 @@
             <br>
             Apps y Sitios web
           </h2>
-          <a href="#contact" class="btn">Ver proyectos</a>
+          <a href="#contact" class="btn"><i class="fab fa-github"></i> Ir a github</a>
         </div>
 
         <div class="social">
@@ -185,7 +172,7 @@
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
-           
+
             <li>
               <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'LinkedIn', dir: 'right'}">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -211,7 +198,7 @@
                     <img src="assets/images/icons/emblem.png" alt="Years of Experience">
                   </div>
                   <div class="text">
-                    <h3>{{ experienceYears }}+</h3>
+                    <h3>4+</h3>
                     <strong>Años de experiencia</strong>
                   </div>
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -223,8 +210,8 @@
                     <img src="assets/images/icons/check-mark.png" alt="Completed Projects">
                   </div>
                   <div class="text">
-                    <h3>230+</h3>
-                    <strong>Proyectos completados</strong>
+                    <h3>15+</h3>
+                    <strong>Certificados en Platzi</strong>
                   </div>
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </a>
@@ -235,7 +222,7 @@
                     <img src="assets/images/icons/happy.png" alt="Happy Clients">
                   </div>
                   <div class="text">
-                    <h3>95+</h3>
+                    <h3>20+</h3>
                     <strong>Clientes satisfechos</strong>
                   </div>
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -255,29 +242,30 @@
             <!-- about image -->
             <div class="about-img col-lg-6">
               <div class="layer" v-clone>
-                <img src="assets/images/about-img.png" alt="User Name">
+                <img src="assets/images/codigo.png" alt="User Name">
               </div>
             </div>
 
             <!-- text box -->
             <div class="about-text col-lg-6">
               <div class="text-box-inline">
-                <span class="subtitle">about me</span>
+                <span class="subtitle">sobre mi</span>
                 <h2>
-                  Need a Creative Product?
+                  Necesitas una solución ?
                   <br>
-                  I can Help You!
+                  Puedo ayudarte!
                 </h2>
                 <p>
-                  Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with
-                  intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions.
-                  I’m always curious about learning new skills, tools, and concepts. In addition to working on various
-                  solo full stack projects, I have worked with creative teams, which involves daily stand-ups and
-                  communications, source control, and project management.
+                  Mi nombre es Rubén Hernández Acevedo, soy un desarrollador que tiene pasión por crear aplicaciones
+                  limpias y con una funcionalidad intuitiva. Me gusta el proceso de convertir las ideas en realidad
+                  usando soluciones creativas. Siempre tengo curiosidad por aprender nuevas habilidades, herramientas y
+                  conceptos. Además de trabajar en varios proyectos individuales de full stack, he colaborado con
+                  equipos creativos, lo que implica reuniones diarias y comunicaciones, control de versiones y gestión
+                  de proyectos. 👨‍💻
                 </p>
                 <div class="btns-container">
-                  <a href="#contact" class="btn btn-primary">Hire Me</a>
-                  <a download href="#" class="btn btn-outline-light">Download CV</a>
+                  <a href="#contact" class="btn btn-primary">Cómo trabajo ?</a>
+                  <a download href="#" class="btn btn-outline-light">Descargar CV</a>
                 </div>
               </div>
             </div>
@@ -294,21 +282,22 @@
             <!-- text box -->
             <div class="skills-text col-lg-6">
               <div class="text-box-inline">
-                <span class="subtitle">my skills</span>
+                <span class="subtitle">habilidades</span>
                 <h2>
-                  What My Programming
+                  ¿Qué incluyen mis
                   <br>
-                  Skills Included?
+                  habilidades ?
                 </h2>
                 <p>
-                  I develop simple, intuitive and responsive user interface that helps users get things done with less
-                  effort and time with those technologies.
+                  Desarrollo interfaces de usuario innovadoras, fáciles de usar y adaptables que facilitan el trabajo de
+                  los usuarios con estas tecnologías. También me encargo del backend y las bases de datos para
+                  garantizar el funcionamiento óptimo de las aplicaciones. 💻🚀📈
                 </p>
                 <div ref="skillsSwitchBtn" class="toggle-switch-btn">
                   <input id="skills-list" type="radio" value="skills" v-model="skillsType" checked>
                   <label for="skills-list" class="link-hover">Skills</label>
                   <input id="tools-list" type="radio" value="tools" v-model="skillsType">
-                  <label for="tools-list" class="link-hover">Tools</label>
+                  <label for="tools-list" class="link-hover">Herramientas</label>
                   <span class="switcher-toggle" style="width: calc((100% - 8px) / 2);"></span>
                 </div>
               </div>
@@ -343,57 +332,6 @@
       <!-- end of skills section -->
 
       <!-- start of experience section -->
-      <div id="experience" class="experience-section section" tabindex="-1">
-        <div class="container">
-          <div class="section-content row">
-
-            <!-- timeline -->
-            <div class="col-lg-6">
-              <div class="experience-timeline">
-                <div class="timepath" ref="experienceTimepath">
-                  <span class="line"></span>
-                  <template v-for="line in experienceChunks">
-                    <span class="semicircle"></span>
-                    <span class="line"></span>
-                  </template>
-                </div>
-
-                <ul class="timeline-items">
-                  <li class="has-ultimate-tooltip" tabindex="0" v-for="item in experienceItems">
-                    <template v-if="Object.keys(item).length > 0">
-                      <h3>{{ item.date }}</h3>
-                      <div class="ultimate-tooltip">
-                        <h4 class="ultimate-tooltip-title">{{ item.companyName.en }}</h4>
-                        <h5 class="ultimate-tooltip-subtitle">{{ item.jobTitle.en }}</h5>
-                        <p>{{ item.desc.en }}</p>
-                      </div>
-                      <div class="ultimate-tooltip-arrow"></div>
-                    </template>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- text box -->
-            <div class="experience-text col-lg-6">
-              <div class="text-box-inline">
-                <span class="subtitle">experience</span>
-                <h2>
-                  {{ experienceYears }}+ Years of Experience
-                  <br>
-                  With Many Awards!
-                </h2>
-                <p>
-                  I have been developing sites and apps for {{ experienceYears }} years and i know for sure the main
-                  trends and directions of modern design, I have been a visionary and a reliable software engineering
-                  partner for world-class brands. You will get a decent result as you expect.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end of experience section -->
 
       <!-- start of portfolio section -->
       <div id="portfolio" class="portfolio-section section" tabindex="-1">
@@ -405,16 +343,13 @@
               <li>
                 <!-- text box -->
                 <div class="text-box-inline">
-                  <span class="subtitle">my works</span>
+                  <span class="subtitle">mis trabajos</span>
                   <h2>
-                    See My Works Which
+                    Un vistazo a
                     <br>
-                    Will Amaze You!
+                    algunos de mis proyectos!
                   </h2>
-                  <p>
-                    We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
-                    elegant interface helps any non-technical clients.
-                  </p>
+
                   <ul class="works-filter">
                     <li v-for="filter in filters" :key="filter">
                       <button :class="{'active': currentFilter === filter}" @click="filterPortfolioItems(filter)">
@@ -439,9 +374,9 @@
               </li>
               <!-- end items list -->
 
-              <li>
+              <!-- <li>
                 <button class="more" @click="getPortfolioItems">Load more works</button>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -452,11 +387,11 @@
       <div id="testimonials" class="testimonials-section section" tabindex="-1" ref="testimonialsSection">
         <div class="container">
           <div class="section-title">
-            <span class="subtitle">testimonials</span>
+            <span class="subtitle">testimonios</span>
             <h2 class="title">
-              Check What's My Clients
+              Lo que opinan algunos
               <br>
-              Say About Me
+              de mis clientes
             </h2>
           </div>
         </div>
@@ -489,15 +424,14 @@
             <!-- text box -->
             <div class="contact-text col-lg-6">
               <div class="text-box-inline">
-                <span class="subtitle">contact</span>
+                <span class="subtitle">contacto</span>
                 <h2>
-                  Have You Any Project?
+                  Te puedo ayudar en algo ?
                   <br>
-                  Please Drop a Message
+                  Por favor deja tu mensaje
                 </h2>
                 <p>
-                  Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as
-                  possible.
+                  Puedes contactarme por esta vía y te daré respuesta lo más rapido posible.
                 </p>
               </div>
 
@@ -506,8 +440,8 @@
                 <li>
                   <img src="assets/images/icons/address.png" alt="Address">
                   <div>
-                    <strong>Address:</strong>
-                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                    <strong>Dirección:</strong>
+                    Calle 166 entre 1ra y 5ta, Playa , La Habana, Cuba
                   </div>
                 </li>
                 <li>
@@ -516,7 +450,7 @@
                     <strong>Phone:</strong>
                     <ul>
                       <li><a href="tel:02966202290" class="ltr-dir">(02) 966 202 290</a></li>
-                      <li><a href="tel:02966202291" class="ltr-dir">(02) 966 202 291</a></li>
+
                     </ul>
                   </div>
                 </li>
@@ -525,8 +459,8 @@
                   <div>
                     <strong>Email:</strong>
                     <ul>
-                      <li><a href="mailto:info@nafie.com">info@nafie.com</a></li>
-                      <li><a href="mailto:support@nafie.com">support@nafie.com</a></li>
+
+                      <li><a href="mailto:hernandzruben9@gmail.com">hernandzruben9@gmail.com</a></li>
                     </ul>
                   </div>
                 </li>
@@ -535,25 +469,17 @@
               <!-- social links -->
               <ul class="social">
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'Facebook', dir: 'top'}">
+                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'Instagram', dir: 'top'}">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
                 </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'Twitter', dir: 'top'}">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
+
                 <li>
                   <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'LinkedIn', dir: 'top'}">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </li>
-                <li>
-                  <a href="#" target="_blank" rel="noreferrer" v-tooltip="{text: 'YouTube', dir: 'top'}">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                  </a>
-                </li>
+
               </ul>
             </div>
 
@@ -590,9 +516,9 @@
                   </div>
                 </div>
                 <div class="group phone-number">
-                  <label>Phone <span class="optional">(Optional)</span></label>
+                  <label>Teléfono <span class="optional">(Opcional)</span></label>
                   <div class="control has-prefix-icon">
-                    <input type="tel" inputmode="tel" name="phone" placeholder="Phone Number">
+                    <input type="tel" inputmode="tel" name="phone" placeholder="Número de teléfono">
                     <i class="fa fa-phone prefix-icon" aria-hidden="true"></i>
 
                     <!-- validation errors messages -->
@@ -602,9 +528,9 @@
                   </div>
                 </div>
                 <div class="group">
-                  <label>Message</label>
+                  <label>Mensaje</label>
                   <div class="control has-prefix-icon">
-                    <textarea name="message" placeholder="Write message..." required></textarea>
+                    <textarea name="message" placeholder="Escribe tu mensaje..." required></textarea>
                     <i class="fa fa-comments prefix-icon" aria-hidden="true"></i>
 
                     <!-- validation errors messages -->
@@ -615,7 +541,7 @@
                 </div>
                 <div class="group">
                   <div class="control">
-                    <button class="submit-btn btn btn-dark" type="button" @click="contactFormValidation">Send</button>
+                    <button class="submit-btn btn btn-dark" type="button" @click="contactFormValidation">Enviar</button>
                   </div>
                 </div>
               </form>
@@ -631,13 +557,13 @@
           <div class="row">
             <div class="col-lg-6">
               <!-- logo -->
-              <div class="logo" title="Nafie">
-                <h1><a href="index.html">Nafie</a></h1>
+              <div class="logo" title="Portfolio">
+                <h1><a href="index.html">Portfolio</a></h1>
               </div>
             </div>
             <div class="col-lg-6">
-              &copy; {{ copyrightDate }} Proudly Powered by
-              <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noopener">Webrouk</a>
+              &copy; {{ copyrightDate }}
+              <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noopener"></a>
             </div>
           </div>
         </div>
@@ -673,7 +599,29 @@
 
   <!-- js plugins file -->
   <script src="scripts/plugins.min.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
 
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJXo1oE1IRJvx3jmwXeKb4fQhUueK0jEY",
+      authDomain: "portfolio-8e9f8.firebaseapp.com",
+      projectId: "portfolio-8e9f8",
+      storageBucket: "portfolio-8e9f8.appspot.com",
+      messagingSenderId: "664096053921",
+      appId: "1:664096053921:web:bd0db6dd336a8ee605aee0",
+      measurementId: "G-JW7HRX2DHD"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <!-- main script file -->
   <script src="scripts/main.min.js"></script>
 </body>

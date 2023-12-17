@@ -477,19 +477,19 @@
         navLinks: [{
           url: '#hero',
           title: {
-            en: 'Home',
+            en: 'Inicio',
             ar: 'الرئيسية'
           }
         }, {
           url: '#about',
           title: {
-            en: 'About',
+            en: 'Sobre mi',
             ar: 'من أنا'
           }
         }, {
           url: '#skills',
           title: {
-            en: 'Skills',
+            en: 'Habilidades',
             ar: 'مهاراتي'
           }
         }, {
@@ -501,7 +501,7 @@
         }, {
           url: '#contact',
           title: {
-            en: 'Contact',
+            en: 'Contacto',
             ar: 'اتصل بي'
           }
         }],
@@ -509,17 +509,17 @@
         skillsType: '',
         // list of skills items to loop through it
         skillsItems: [{
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/lenguajes/icons8-html-5-48.png',
           title: 'HTML5'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/lenguajes/icons8-css-48.png',
           title: 'CSS3'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/lenguajes/icons8-js-48.png',
           title: 'JavaScript'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'TypeScript'
+          imgUrl: 'assets/images/lenguajes/icons8-php-48.png',
+          title: 'PHP'
         }, {
           imgUrl: 'https://via.placeholder.com/48',
           title: 'jQuery'
@@ -688,7 +688,7 @@
         // portfolio items per page
         itemsPerPage: 7,
         // portfolio items filter by type
-        filters: ['All', 'HTML', 'Angular', 'Vue'],
+        filters: ['Todos', 'Frontend', 'FullStack'],
         currentFilter: 'All',
         // portfolio archive name
         portfolioArchiveName: '',
